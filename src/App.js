@@ -10,23 +10,24 @@ export default class App {
 		console.log("▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ELEVE▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓")
 		// Tous les affichages se font avec console.log
 		// Créer la variable str1 avec la valeur "Rita Raté"
-
+		var str1 = "Rita Raté";
 		// Faire afficher "Rita Raté"
-
+		console.log(str1);
 		// Créer la variable str2 avec la valeur "le petit chaperon rouge"
-
+		var str2 = "le petit chaperon rouge";
 		// Faire afficher "Rita Raté et le petit chaperon rouge"
-
+		console.log(str1+" et "+str2);
 		// En utilisant str1, créer la variable num1 qui vaut 9 puis la faire afficher
-
+		var num1 = str1.length;
+		console.log(num1);
 		// Faire afficher str2
-
+		console.log(str2);
 		// Faire afficher les 9 premiers caractères de str2
-
+		console.log(str2.slice(0,num1));
 		// Faire afficher les 9 derniers caractères de str2
-
+		console.log(str2.slice(str2.length-9,str2.length));
 		// Créer la variable num2 qui a comme valeur la position du mot "rouge" (faire afficher)
-
+		var num2 = 
 		// Faire afficher "Le petit chaperon bleu"
 
 		// Faire afficher "18/9=2"
